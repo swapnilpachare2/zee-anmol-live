@@ -19,12 +19,12 @@
   var video = document.getElementById('video');
   if(Hls.isSupported()) {
     var hls = new Hls();
-    hls.loadSource('https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeanmol1/default/zeeanmol1.m3u8');
+    hls.loadSource('https://ccd-subscriptions-deutsch-bc.trycloudflare.com/jiotv/app/ts_live_755.m3u8');
     hls.attachMedia(video);
     video.play();
   }
   else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-    video.src = 'https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeanmol1/default/zeeanmol1.m3u8';
+    video.src = 'https://ccd-subscriptions-deutsch-bc.trycloudflare.com/jiotv/app/ts_live_755.m3u8';
     video.addEventListener('loadedmetadata',function() {
       video.play();
     });
