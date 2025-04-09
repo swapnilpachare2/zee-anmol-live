@@ -10,13 +10,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 95vh;
 }
 
 body #video {
     width: 360px;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow:
         0px 0px 10.4px rgba(0, 0, 0, 0.045),
         0px 0px 25.1px rgba(0, 0, 0, 0.065),
